@@ -6,7 +6,7 @@
     'sequence': -100,
     'description': """
         Hide Powered By Odoo""", 
-    'author': "Me",
+    'author': "ADIL",
     'website': "#",
     'category': 'Uncategorized',
     'license': 'LGPL-3',
