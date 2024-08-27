@@ -1,16 +1,16 @@
 # -*- coding: utf-8 -*-
 {
-    'name': 'Hide Manage Databases',
+    'name': "Hide Manage Databases",
     'version': '0.1',
-    'summary': 'Hide Manage Databases',
+    'summary': "Hide Manage Databases",
     'sequence': -100,
     'description': """
-        Hide Manage Databases""", 
+        Hide Manage Databases
+    """,
     'author': "InnoSA",
     'website': "#",
     'category': 'Uncategorized',
     'license': 'LGPL-3',
-    'images': ['static/description/banner.png'],
     'depends': ['web'],
     'data': [
         'views/views.xml',

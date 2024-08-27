@@ -1,7 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <odoo>
-    <template id="hide_login_manage_database" inherit_id="web.login_layout" name="Hide login Manage Database  ">
+    <template id="login_page_layout" inherit_id="web.login_layout" name="Login Page Layout">
         <xpath expr="//div[@class='card-body']//div[last()]" position="replace">
+            <div class="text-center small mt-4 pt-3 login--footer" t-if="not disable_footer">               
+              <a href="https://www.odoo.com?utm_source=db&amp;utm_medium=auth" target="_blank">Powered by
+                <span>Odoo</span>
+              </a>
+            </div>
         </xpath>
     </template>
 </odoo>
