@@ -11,6 +11,7 @@
     'website': "#",
     'category': 'Uncategorized',
     'license': 'LGPL-3',
+    'images': ['static/description/banner.png'],
     'depends': ['web'],
     'data': [
         'views/views.xml',
