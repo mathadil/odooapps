@@ -1,9 +1,9 @@
 # -*- coding: utf-8 -*-
 {
-    'name': "Hide menu for Groups",
-    'summary': "Hide menu for Groups",
+    'name': "Hide any menu by user group",
+    'summary': "Hide any menu by user group",
     'description': """
-        Hide menu for Groups
+        Hide any menu by user group
     """,
     'author': "InnoSA",
     'website': "#",
