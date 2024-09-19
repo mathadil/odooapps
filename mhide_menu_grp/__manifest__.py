@@ -12,6 +12,7 @@
     'images': ['static/description/banner.png'],
     'depends': ['web'],
     'data': [
+        'security/security.xml',
         'views/views.xml',
     ],
     'installable': True,
